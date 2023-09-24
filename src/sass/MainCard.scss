@@ -1,0 +1,21 @@
+.mainCard {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 650px) {
+  html {
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      .mainCard {
+        flex-direction: row;
+        border-radius: 30px;
+        width: 70rem;
+        box-shadow: 1px 1px 20px 5px rgba(224, 241, 253, 0.8);
+      }
+    }
+  }
+}
